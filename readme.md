@@ -91,7 +91,7 @@ Figure 1: Block diagram for the integrated multiplier
 <div align="center">
 
 ## Contributors
-> Thanks goes to these wonderful to my Team member Islam Ahmed
+> Thanks goes to my Team member Islam Ahmed
 <table>
     <tr>
         <td align="center">
