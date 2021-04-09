@@ -46,3 +46,83 @@ Figure 1: Block diagram for the integrated multiplier
 ![image](https://user-images.githubusercontent.com/42722816/114174918-a11ab600-9939-11eb-8d4d-2fbc5489c90e.png)
 
 </div>
+
+<div align="center">
+
+## Result ScreenShots
+
+</div>
+
+
+<div align="center">
+
+### Multiplier
+
+![multiplier](https://user-images.githubusercontent.com/42722816/114238428-e2848300-9984-11eb-8983-f8c389b170ac.png)
+
+
+</div>
+
+<div align="center">
+
+### BCD
+
+![bcd](https://user-images.githubusercontent.com/42722816/114238464-f203cc00-9984-11eb-9b76-a74ed7c84fcb.png)
+
+
+</div>
+<div align="center">
+
+### SSD
+
+![ssd](https://user-images.githubusercontent.com/42722816/114238471-f334f900-9984-11eb-901f-384520c68c1c.png)
+
+
+</div>
+<div align="center">
+
+### integration
+
+![integration](https://user-images.githubusercontent.com/42722816/114238477-f4662600-9984-11eb-859f-3b9f41f9f7be.png)
+
+
+</div>
+
+<div align="center">
+
+## Contributors
+> Thanks goes to these wonderful to my Team member Islam Ahmed
+<table>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/abdallahabusedo" target="_black">
+            <img src="https://avatars0.githubusercontent.com/u/42722816?s=460&u=a58d9b5480b82e1274b77f583c95d91e6982e683&v=4" width="150px;" alt="abdallah abu sedo"/>
+            <br />
+            <sub>
+                <b>Abdallah abu sedo</b>
+            </sub>
+            </a>
+            <a href="https://github.com/abdallahabusedo/Symphony/commits/master?author=abdallahabusedo" title="Leader">🎯
+            </a>
+            <a href="https://github.com/abdallahabusedo/Symphony/commits/master?author=abdallahabusedo" title="Code">💻</a>
+            <a href="https://github.com/abdallahabusedo/Symphony/pulls?q=is%3Apr+author%abdallahabusedo" title="Reviewed Pull Requests">👀</a>
+            <br />
+        </td>
+
+<td align="center">
+        <a href="https://github.com/IslamAhmed1092" target="_black">
+     <img src="https://avatars.githubusercontent.com/u/41655052?v=4" width="150px;" alt="Islam Ahmed"/>
+        <br />
+        <sub>
+          <b>Islam Ahmed</b>
+        </sub>
+        </a>
+        <a href="https://github.com/IslamAhmed1092/Combinational-Multiplier/commits/master?author=IslamAhmed1092" title="Leader">🎯</a>
+        <a href="https://github.com/IslamAhmed1092/Combinational-Multiplier/commits/master?author=IslamAhmed1092" title="Code">💻</a>
+        <a href="https://github.com/IslamAhmed1092/Combinational-Multiplier/pulls?q=is%3Apr+author%IslamAhmed1092" title="Reviewed Pull Requests">👀</a>
+        <br />
+        </td>
+        </tr>
+    </table>
+
+</div>
