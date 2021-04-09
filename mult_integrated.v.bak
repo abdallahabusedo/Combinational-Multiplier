@@ -1,6 +1,6 @@
 module mult_integrated (
     	input [3:0] inA, inB,
-	output reg[6:0] HandredSeg,TenSeg,OnesSeg
+	output reg[6:0] HandredSeg,TenSeg,OnesSeg;
 );
 	wire [3:0] TempH,TempO,TempT; 
     	

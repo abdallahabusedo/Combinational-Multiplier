@@ -1,10 +1,103 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/moldelsim
+dC:/intelFPGA/20.1
+vbcd
+Z0 !s110 1617983127
+!i10b 1
+!s100 LHIEJFdgmLYjBijc3SAc`2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVA3k:X896Y7;V]Edm2R=f0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Assignment 1 Verilog
+w1617982735
+8D:/Assignment 1 Verilog/bcd.v
+FD:/Assignment 1 Verilog/bcd.v
+!i122 38
+L0 1 19
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1617983127.000000
+!s107 D:/Assignment 1 Verilog/bcd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Assignment 1 Verilog/bcd.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vmult4x4
+Z8 !s110 1617983128
+!i10b 1
+!s100 2UO7P0J<]]LHYQ8?3YD`H0
+R1
+In^=ETozYZ74Z[?AWOhIZP2
+R2
+R3
+w1617981984
+8D:/Assignment 1 Verilog/mult4x4.v
+FD:/Assignment 1 Verilog/mult4x4.v
+!i122 40
+L0 1 6
+R4
+r1
+!s85 0
+31
+Z9 !s108 1617983128.000000
+!s107 D:/Assignment 1 Verilog/mult4x4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Assignment 1 Verilog/mult4x4.v|
+!i113 1
+R6
+R7
+vmult_integrated
+R0
+!i10b 1
+!s100 >3DI_dN?fE[d9<JBe2^6;2
+R1
+INI1OnB7CbXGaF1Vf=H[4o3
+R2
+R3
+w1617983125
+8D:/Assignment 1 Verilog/mult_integrated.v
+FD:/Assignment 1 Verilog/mult_integrated.v
+!i122 39
+L0 1 14
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Assignment 1 Verilog/mult_integrated.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Assignment 1 Verilog/mult_integrated.v|
+!i113 1
+R6
+R7
+vssd
+R8
+!i10b 1
+!s100 i_aA^ND=jjkYoN?b>EPJ72
+R1
+IBPPobmI@k?Ah8O_EU9U131
+R2
+R3
+w1617982720
+8D:/Assignment 1 Verilog/ssd.v
+FD:/Assignment 1 Verilog/ssd.v
+!i122 41
+L0 1 32
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/Assignment 1 Verilog/ssd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Assignment 1 Verilog/ssd.v|
+!i113 1
+R6
+R7

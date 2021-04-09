@@ -8,3 +8,74 @@
 # Compile of mult4x4.v was successful.
 # Compile of ssd.v was successful.
 # 4 compiles, 0 failed with no errors.
+# Compile of bcd.v was successful.
+# Compile of mult_integrated.v was successful.
+# Compile of mult4x4.v was successful.
+# Compile of ssd.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.Main
+# vsim work.Main 
+# Start time: 17:39:51 on Apr 09,2021
+# Loading work.Main
+# Loading work.mult4x4
+# Loading work.bcd
+# Loading work.ssd
+quit -sim
+# End time: 17:40:06 on Apr 09,2021, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 4
+# Compile of bcd.v was successful.
+# Compile of mult_integrated.v was successful.
+# Compile of mult4x4.v was successful.
+# Compile of ssd.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_integrated
+# vsim work.mult_integrated 
+# Start time: 17:40:30 on Apr 09,2021
+# Loading work.mult_integrated
+# Loading work.mult4x4
+# Loading work.bcd
+# Loading work.ssd
+add wave -position insertpoint  \
+sim:/mult_integrated/inA \
+sim:/mult_integrated/inB \
+sim:/mult_integrated/HandredSeg \
+sim:/mult_integrated/TenSeg \
+sim:/mult_integrated/OnesSeg
+quit -sim
+# End time: 17:43:05 on Apr 09,2021, Elapsed time: 0:02:35
+# Errors: 0, Warnings: 2
+# Compile of bcd.v was successful.
+# Compile of mult_integrated.v failed with 3 errors.
+# Compile of mult4x4.v was successful.
+# Compile of ssd.v was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of bcd.v was successful.
+# Compile of mult_integrated.v failed with 3 errors.
+# Compile of mult4x4.v was successful.
+# Compile of ssd.v was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of bcd.v was successful.
+# Compile of mult_integrated.v failed with 3 errors.
+# Compile of mult4x4.v was successful.
+# Compile of ssd.v was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of bcd.v was successful.
+# Compile of mult_integrated.v failed with 3 errors.
+# Compile of mult4x4.v was successful.
+# Compile of ssd.v was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of bcd.v was successful.
+# Compile of mult_integrated.v failed with 3 errors.
+# Compile of mult4x4.v was successful.
+# Compile of ssd.v was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of bcd.v was successful.
+# Compile of mult_integrated.v failed with 1 errors.
+# Compile of mult4x4.v was successful.
+# Compile of ssd.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of bcd.v was successful.
+# Compile of mult_integrated.v was successful.
+# Compile of mult4x4.v was successful.
+# Compile of ssd.v was successful.
+# 4 compiles, 0 failed with no errors.

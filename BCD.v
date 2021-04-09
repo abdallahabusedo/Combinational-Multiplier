@@ -1,4 +1,4 @@
-module BCD (binary, hundredsDigit, tensDigit, onesDigit);
+module bcd (binary, hundredsDigit, tensDigit, onesDigit);
 	input [7:0] binary;
 	output [3:0] hundredsDigit, tensDigit, onesDigit;
 	wire [3:0] out1, out2, out3, out4, out5, out6, out7;

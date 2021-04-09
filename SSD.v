@@ -1,4 +1,4 @@
-module SSD (
+module ssd (
    input [3:0] inS,
    output reg [6:0] Seg  
 );
