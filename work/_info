@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,74 @@ z2
 !i10f 100
 cModel Technology
 dD:/moldelsim
+vBCD
+!s110 1617972457
+!i10b 1
+!s100 87B[z=do21IM9;WiLd>@30
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3iUNEmCT7_RUS8CkAAJH]2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Assignment 1 Verilog
+w1617972364
+8D:/Assignment 1 Verilog/BCD.v
+FD:/Assignment 1 Verilog/BCD.v
+!i122 3
+L0 1 32
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1617972457.000000
+!s107 D:/Assignment 1 Verilog/BCD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Assignment 1 Verilog/BCD.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@b@c@d
+vmulti
+!s110 1617970845
+!i10b 1
+!s100 6QN4W=WAD<kNSEVh^n2J11
+R0
+Ia2WZ^bKRJE;bLC:Zz9D5R2
+R1
+R2
+w1617970843
+8D:/Assignment 1 Verilog/multi.v
+FD:/Assignment 1 Verilog/multi.v
+!i122 2
+L0 1 8
+R3
+r1
+!s85 0
+31
+!s108 1617970845.000000
+!s107 D:/Assignment 1 Verilog/multi.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Assignment 1 Verilog/multi.v|
+!i113 1
+R4
+R5
+vSSD
+!s110 1617970746
+!i10b 1
+!s100 GYg7O>1kQQGzH>?d<ZDNT1
+R0
+I2kWXF`9SbPBSKdf`Wk`8o0
+R1
+R2
+w1617969641
+8D:/Assignment 1 Verilog/SSD.v
+FD:/Assignment 1 Verilog/SSD.v
+!i122 0
+L0 1 31
+R3
+r1
+!s85 0
+31
+!s108 1617970745.000000
+!s107 D:/Assignment 1 Verilog/SSD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Assignment 1 Verilog/SSD.v|
+!i113 1
+R4
+R5
+n@s@s@d
