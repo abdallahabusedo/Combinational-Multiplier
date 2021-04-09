@@ -1,15 +1,1 @@
-{D:/Assignment 1 Verilog/SSD.v} {1 {vlog -work work -stats=none {D:/Assignment 1 Verilog/SSD.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module SSD
 
-Top level modules:
-	SSD
-
-} {} {}} {D:/Assignment 1 Verilog/multi.v} {1 {vlog -work work -stats=none {D:/Assignment 1 Verilog/multi.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module multi
-
-Top level modules:
-	multi
-
-} {} {}}
