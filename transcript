@@ -1,81 +1,251 @@
+# Reading C:/intelFPGA/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.mpf}
+# Loading project mult_integrated
+# Error opening D:/Assignment 1 Verilog/mult4x4.v
+# Path name 'D:/Assignment 1 Verilog/mult4x4.v' doesn't exist.
+# Error opening D:/Assignment 1 Verilog/mult4x4.v
+# Path name 'D:/Assignment 1 Verilog/mult4x4.v' doesn't exist.
 # Compile of bcd.v was successful.
 # Compile of mult_integrated.v was successful.
 # Compile of mult4x4.v was successful.
 # Compile of ssd.v was successful.
 # 4 compiles, 0 failed with no errors.
-# Compile of bcd.v was successful.
-# Compile of mult_integrated.v was successful.
-# Compile of mult4x4.v was successful.
-# Compile of ssd.v was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of bcd.v was successful.
-# Compile of mult_integrated.v was successful.
-# Compile of mult4x4.v was successful.
-# Compile of ssd.v was successful.
-# 4 compiles, 0 failed with no errors.
-vsim work.Main
-# vsim work.Main 
-# Start time: 17:39:51 on Apr 09,2021
-# Loading work.Main
+vsim -gui work.mult4x4
+# vsim -gui work.mult4x4 
+# Start time: 17:50:31 on Apr 09,2021
 # Loading work.mult4x4
-# Loading work.bcd
-# Loading work.ssd
+add wave -position end  sim:/mult4x4/x1
+add wave -position end  sim:/mult4x4/x2
+add wave -position end  sim:/mult4x4/y
+force -freeze sim:/mult4x4/x1 10#3 0
+force -freeze sim:/mult4x4/x2 10#4 0
+run
+force -freeze sim:/mult4x4/x1 10#15 0
+force -freeze sim:/mult4x4/x2 10#15 0
+run
+force -freeze sim:/mult4x4/x1 10#0 0
+force -freeze sim:/mult4x4/x2 10#7 0
+run
+force -freeze sim:/mult4x4/x1 10#9 0
+run
+force -freeze sim:/mult4x4/x1 10#2 0
+force -freeze sim:/mult4x4/x2 10#4 0
+run
 quit -sim
-# End time: 17:40:06 on Apr 09,2021, Elapsed time: 0:00:15
-# Errors: 0, Warnings: 4
-# Compile of bcd.v was successful.
-# Compile of mult_integrated.v was successful.
-# Compile of mult4x4.v was successful.
-# Compile of ssd.v was successful.
-# 4 compiles, 0 failed with no errors.
-vsim work.mult_integrated
-# vsim work.mult_integrated 
-# Start time: 17:40:30 on Apr 09,2021
+# End time: 17:55:19 on Apr 09,2021, Elapsed time: 0:04:48
+# Errors: 0, Warnings: 0
+vsim -gui work.bcd
+# vsim -gui work.bcd 
+# Start time: 17:55:50 on Apr 09,2021
+# Loading work.bcd
+add wave -position end  sim:/bcd/binary
+add wave -position end  sim:/bcd/hundredsDigit
+add wave -position end  sim:/bcd/tensDigit
+add wave -position end  sim:/bcd/onesDigit
+force -freeze sim:/bcd/binary 159 0
+# Invalid binary digit: 5.
+# ** Error: (vsim-4011) Invalid force value: 159 0.
+# 
+run
+restart -f
+force -freeze sim:/bcd/binary 10#159 0
+run
+force -freeze sim:/bcd/binary 10#6 0
+run
+force -freeze sim:/bcd/binary 10#242 0
+run
+force -freeze sim:/bcd/binary 10#13 0
+run
+force -freeze sim:/bcd/binary 10#88 0
+run
+quit -sim
+vsim -gui work.ssd
+# End time: 18:00:21 on Apr 09,2021, Elapsed time: 0:04:31
+# Errors: 1, Warnings: 0
+# vsim -gui work.ssd 
+# Start time: 18:00:21 on Apr 09,2021
+# Loading work.ssd
+add wave -position end  sim:/ssd/inS
+add wave -position end  sim:/ssd/Seg
+force -freeze sim:/ssd/inS 0000 0
+run
+restart -f
+force -freeze sim:/ssd/inS 1001 0, 0 {50 ps} -r 100
+run
+run
+run
+restart -f
+force -freeze sim:/ssd/inS 1 0, 0 {50 ps} -r 100
+run
+restart -f
+force -freeze sim:/ssd/inS 0000 0
+run
+force -freeze sim:/ssd/inS 0001 0
+run
+force -freeze sim:/ssd/inS 0010 0
+run
+force -freeze sim:/ssd/inS 0011 0
+run
+force -freeze sim:/ssd/inS 0100 0
+run
+force -freeze sim:/ssd/inS 0101 0
+run
+force -freeze sim:/ssd/inS 0110 0
+run
+force -freeze sim:/ssd/inS 0111 0
+run
+force -freeze sim:/ssd/inS 1000 0
+run
+force -freeze sim:/ssd/inS 1001 0
+run
+restart -f
+# Load canceled
+quit -sim
+vsim -gui work.mult_integrated
+# End time: 18:06:50 on Apr 09,2021, Elapsed time: 0:06:29
+# Errors: 1, Warnings: 0
+# vsim -gui work.mult_integrated 
+# Start time: 18:06:51 on Apr 09,2021
 # Loading work.mult_integrated
 # Loading work.mult4x4
 # Loading work.bcd
 # Loading work.ssd
-add wave -position insertpoint  \
-sim:/mult_integrated/inA \
-sim:/mult_integrated/inB \
-sim:/mult_integrated/HandredSeg \
-sim:/mult_integrated/TenSeg \
-sim:/mult_integrated/OnesSeg
-quit -sim
-# End time: 17:43:05 on Apr 09,2021, Elapsed time: 0:02:35
-# Errors: 0, Warnings: 2
-# Compile of bcd.v was successful.
-# Compile of mult_integrated.v failed with 3 errors.
-# Compile of mult4x4.v was successful.
-# Compile of ssd.v was successful.
-# 4 compiles, 1 failed with 3 errors.
-# Compile of bcd.v was successful.
-# Compile of mult_integrated.v failed with 3 errors.
-# Compile of mult4x4.v was successful.
-# Compile of ssd.v was successful.
-# 4 compiles, 1 failed with 3 errors.
-# Compile of bcd.v was successful.
-# Compile of mult_integrated.v failed with 3 errors.
-# Compile of mult4x4.v was successful.
-# Compile of ssd.v was successful.
-# 4 compiles, 1 failed with 3 errors.
-# Compile of bcd.v was successful.
-# Compile of mult_integrated.v failed with 3 errors.
-# Compile of mult4x4.v was successful.
-# Compile of ssd.v was successful.
-# 4 compiles, 1 failed with 3 errors.
-# Compile of bcd.v was successful.
-# Compile of mult_integrated.v failed with 3 errors.
-# Compile of mult4x4.v was successful.
-# Compile of ssd.v was successful.
-# 4 compiles, 1 failed with 3 errors.
-# Compile of bcd.v was successful.
-# Compile of mult_integrated.v failed with 1 errors.
-# Compile of mult4x4.v was successful.
-# Compile of ssd.v was successful.
-# 4 compiles, 1 failed with 1 error.
-# Compile of bcd.v was successful.
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(10): Illegal output or inout port connection for port 'Seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/Ha File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(11): Illegal output or inout port connection for port 'Seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/Te File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(12): Illegal output or inout port connection for port 'Seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/On File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# Error loading design
+# End time: 18:06:51 on Apr 09,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
 # Compile of mult_integrated.v was successful.
-# Compile of mult4x4.v was successful.
-# Compile of ssd.v was successful.
-# 4 compiles, 0 failed with no errors.
+vsim -gui work.mult_integrated
+# vsim -gui work.mult_integrated 
+# Start time: 18:08:39 on Apr 09,2021
+# Loading work.mult_integrated
+# Loading work.mult4x4
+# Loading work.bcd
+# Loading work.ssd
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(9): Illegal output or inout port connection for port 'hundredsDigit'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/G File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/bcd.v
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(9): Illegal output or inout port connection for port 'tensDigit'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/G File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/bcd.v
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(9): Illegal output or inout port connection for port 'onesDigit'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/G File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/bcd.v
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(10): Illegal output or inout port connection for port 'Seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/Ha File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(11): Illegal output or inout port connection for port 'Seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/Te File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(12): Illegal output or inout port connection for port 'Seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/On File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# Error loading design
+# End time: 18:08:40 on Apr 09,2021, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+# Compile of mult_integrated.v was successful.
+vsim -gui work.mult_integrated
+# vsim -gui work.mult_integrated 
+# Start time: 18:16:33 on Apr 09,2021
+# Loading work.mult_integrated
+# Loading work.mult4x4
+# Loading work.bcd
+quit -sim
+# End time: 18:17:06 on Apr 09,2021, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# Compile of mult_integrated.v was successful.
+vsim -gui work.mult_integrated
+# vsim -gui work.mult_integrated 
+# Start time: 18:17:43 on Apr 09,2021
+# Loading work.mult_integrated
+# Loading work.mult4x4
+# Loading work.bcd
+# Loading work.ssd
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(10): Illegal output or inout port connection for port 'Seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/Ha File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# Error loading design
+# End time: 18:17:43 on Apr 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of mult_integrated.v was successful.
+vsim -gui work.mult_integrated
+# vsim -gui work.mult_integrated 
+# Start time: 18:18:54 on Apr 09,2021
+# Loading work.mult_integrated
+# Loading work.mult4x4
+# Loading work.bcd
+# Loading work.ssd
+# ** Warning: (vsim-3015) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(10): [PCDPC] - Port size (7) does not match connection size (1) for port 'Seg'. The port definition is at: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/Ha File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# ** Warning: (vsim-3015) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(11): [PCDPC] - Port size (7) does not match connection size (1) for port 'Seg'. The port definition is at: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/Te File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# ** Warning: (vsim-3015) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(12): [PCDPC] - Port size (7) does not match connection size (1) for port 'Seg'. The port definition is at: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/On File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+add wave -position end  sim:/mult_integrated/A
+add wave -position end  sim:/mult_integrated/B
+add wave -position end  sim:/mult_integrated/Multiout
+add wave -position end  sim:/mult_integrated/TempH
+add wave -position end  sim:/mult_integrated/TempT
+add wave -position end  sim:/mult_integrated/TempO
+add wave -position end  sim:/mult_integrated/HandredSeg
+add wave -position end  sim:/mult_integrated/TenSeg
+add wave -position end  sim:/mult_integrated/OnesSeg
+force -freeze sim:/mult_integrated/A 10#3 0
+force -freeze sim:/mult_integrated/B 10#6 0
+run
+quit -sim
+# End time: 18:30:41 on Apr 09,2021, Elapsed time: 0:11:47
+# Errors: 0, Warnings: 3
+# Compile of mult_integrated.v was successful.
+vsim -gui work.mult_integrated
+# vsim -gui work.mult_integrated 
+# Start time: 18:31:47 on Apr 09,2021
+# Loading work.mult_integrated
+# Loading work.mult4x4
+# Loading work.bcd
+# Loading work.ssd
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(10): Illegal output or inout port connection for port 'Seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/Ha File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(11): Illegal output or inout port connection for port 'Seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/Te File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# ** Error (suppressible): (vsim-3053) C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v(12): Illegal output or inout port connection for port 'Seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult_integrated/On File: C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+# Error loading design
+# End time: 18:31:47 on Apr 09,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# Compile of mult_integrated.v was successful.
+vsim -gui work.mult_integrated
+# vsim -gui work.mult_integrated 
+# Start time: 18:32:13 on Apr 09,2021
+# Loading work.mult_integrated
+# Loading work.mult4x4
+# Loading work.bcd
+# Loading work.ssd
+add wave -position end  sim:/mult_integrated/A
+add wave -position end  sim:/mult_integrated/B
+add wave -position end  sim:/mult_integrated/Multiout
+add wave -position end  sim:/mult_integrated/TempH
+add wave -position end  sim:/mult_integrated/TempT
+add wave -position end  sim:/mult_integrated/TempO
+add wave -position end  sim:/mult_integrated/HandredSeg
+add wave -position end  sim:/mult_integrated/TenSeg
+add wave -position end  sim:/mult_integrated/OnesSeg
+force -freeze sim:/mult_integrated/A 10#3 0
+force -freeze sim:/mult_integrated/B 10#6 0
+run
+force -freeze sim:/mult_integrated/A 10#15 0
+force -freeze sim:/mult_integrated/B 10#15 0
+run
+force -freeze sim:/mult_integrated/A 10#10 0
+force -freeze sim:/mult_integrated/B 10#7 0
+run
+force -freeze sim:/mult_integrated/A 10#4 0
+force -freeze sim:/mult_integrated/B 10#1 0
+run
+force -freeze sim:/mult_integrated/A 10#2 0
+force -freeze sim:/mult_integrated/B 10#86 0
+run
+force -freeze sim:/mult_integrated/A 10#49 0
+force -freeze sim:/mult_integrated/B 10#3 0
+run
+force -freeze sim:/mult_integrated/A 10#11 0
+force -freeze sim:/mult_integrated/B 10#11 0
+run

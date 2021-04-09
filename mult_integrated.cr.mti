@@ -1,19 +1,19 @@
-{D:/Assignment 1 Verilog/ssd.v} {1 {vlog -work work -stats=none {D:/Assignment 1 Verilog/ssd.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+{C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v} {1 {vlog -work work -stats=none {C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module ssd
 
 Top level modules:
 	ssd
 
-} {} {}} {D:/Assignment 1 Verilog/mult4x4.v} {1 {vlog -work work -stats=none {D:/Assignment 1 Verilog/mult4x4.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+} {} {}} {C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult4x4.v} {1 {vlog -work work -stats=none {C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult4x4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module mult4x4
 
 Top level modules:
 	mult4x4
 
-} {} {}} {D:/Assignment 1 Verilog/bcd.v} {1 {vlog -work work -stats=none {D:/Assignment 1 Verilog/bcd.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+} {} {}} {C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/bcd.v} {1 {vlog -work work -stats=none {C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/bcd.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module bcd
 
 Top level modules:

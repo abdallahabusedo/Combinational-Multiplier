@@ -10,94 +10,86 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 vbcd
-Z0 !s110 1617983127
+!s110 1617983389
 !i10b 1
-!s100 LHIEJFdgmLYjBijc3SAc`2
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IVA3k:X896Y7;V]Edm2R=f0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dD:/Assignment 1 Verilog
-w1617982735
-8D:/Assignment 1 Verilog/bcd.v
-FD:/Assignment 1 Verilog/bcd.v
-!i122 38
-L0 1 19
-Z4 OV;L;2020.1;71
+!s100 LeUObhQN:gT^ggznhjHmN0
+I;d8B2_eg_kTb^@iW:oiFH3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier
+Z2 w1617983244
+8C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/bcd.v
+FC:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/bcd.v
+L0 1
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1617983127.000000
-!s107 D:/Assignment 1 Verilog/bcd.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/Assignment 1 Verilog/bcd.v|
+!s108 1617983389.000000
+!s107 C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/bcd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/bcd.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+Z4 o-work work
+Z5 tCvgOpt 0
 vmult4x4
-Z8 !s110 1617983128
+Z6 !s110 1617983390
 !i10b 1
-!s100 2UO7P0J<]]LHYQ8?3YD`H0
-R1
-In^=ETozYZ74Z[?AWOhIZP2
-R2
-R3
-w1617981984
-8D:/Assignment 1 Verilog/mult4x4.v
-FD:/Assignment 1 Verilog/mult4x4.v
-!i122 40
-L0 1 6
-R4
-r1
-!s85 0
-31
-Z9 !s108 1617983128.000000
-!s107 D:/Assignment 1 Verilog/mult4x4.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/Assignment 1 Verilog/mult4x4.v|
-!i113 1
-R6
-R7
-vmult_integrated
+!s100 ?z9[kBoXFP;:^LFUJOZio2
+IKT`XKb>T<W5kS@MM=JQ[W0
 R0
-!i10b 1
-!s100 >3DI_dN?fE[d9<JBe2^6;2
 R1
-INI1OnB7CbXGaF1Vf=H[4o3
-R2
+w1617982600
+8C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult4x4.v
+FC:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult4x4.v
+L0 1
 R3
-w1617983125
-8D:/Assignment 1 Verilog/mult_integrated.v
-FD:/Assignment 1 Verilog/mult_integrated.v
-!i122 39
-L0 1 14
-R4
 r1
 !s85 0
 31
+Z7 !s108 1617983390.000000
+!s107 C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult4x4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult4x4.v|
+!i113 1
+R4
 R5
-!s107 D:/Assignment 1 Verilog/mult_integrated.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/Assignment 1 Verilog/mult_integrated.v|
-!i113 1
-R6
-R7
-vssd
-R8
+vmult_integrated
+!s110 1617985919
 !i10b 1
-!s100 i_aA^ND=jjkYoN?b>EPJ72
+!s100 6:Gz]HgBR47CmUQ^C^8lm1
+IKFDL2kOY=dcDeJ=Jb4LgN2
+R0
 R1
-IBPPobmI@k?Ah8O_EU9U131
-R2
+w1617985912
+8C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v
+FC:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v
+L0 1
 R3
-w1617982720
-8D:/Assignment 1 Verilog/ssd.v
-FD:/Assignment 1 Verilog/ssd.v
-!i122 41
-L0 1 32
-R4
 r1
 !s85 0
 31
-R9
-!s107 D:/Assignment 1 Verilog/ssd.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/Assignment 1 Verilog/ssd.v|
+!s108 1617985919.000000
+!s107 C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/mult_integrated.v|
 !i113 1
+R4
+R5
+vssd
 R6
+!i10b 1
+!s100 bQ5_k1=2RekRoNo5<NK[H1
+IHm6D6ckAZk]NC<0SYc1Q50
+R0
+R1
+R2
+8C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+FC:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v
+L0 1
+R3
+r1
+!s85 0
+31
 R7
+!s107 C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Islam Ahmed/Desktop/Lab1 vlsi/Combinational-Multiplier/ssd.v|
+!i113 1
+R4
+R5
