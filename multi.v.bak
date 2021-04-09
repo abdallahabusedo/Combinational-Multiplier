@@ -1,7 +1,9 @@
 module multi ( 
     input [3:0] ina,
     input [3:0] inb,
-    output wire [7:0] outd );
-   
-    assign outd = ina * inb;
+    output reg [7:0] outd 
+);
+   initial begin
+    outd = ina * inb;
+end
 endmodule //multi
